@@ -14,7 +14,7 @@ https://github.com/LemonYu997/Study-JavaWeb/tree/main/Note
 
 # 三、Javascript
 
-[Javascript练习](https://github.com/LemonYu997/Study-JavaWeb/tree/main/Javascript)
+[Javascript练习](https://github.com/LemonYu997/Study-JavaWeb/tree/main/JavaScript)
 
 # 四、Bootstrap
 
