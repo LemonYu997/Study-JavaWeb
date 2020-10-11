@@ -18,7 +18,7 @@ https://github.com/LemonYu997/Study-JavaWeb/tree/main/Note
 
 # 四、Bootstrap
 
-[Bootstrapt练习]https://github.com/LemonYu997/Study-JavaWeb/tree/main/Bootstrap
+[Bootstrapt练习](https://github.com/LemonYu997/Study-JavaWeb/tree/main/Bootstrap)
 
 
 
