@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>运算符</title>
+    <script>
+        var num = 3;
+        var a = num++;
+        document.write(num+"<br>");
+        document.write(a + "<br>");
+
+        var b = +"123";
+        //alert(typeof (b));
+        document.write(b+1 + "<br>");
+
+        var c = +"abc";
+        //alert(typeof (b));
+        document.write(c+1 + "<br>");       //NaN
+
+        document.write((3 > 4) + "<br>");     //false
+        document.write(("123" > 122) + "<br>");     //true
+
+        var num2 = 4;
+        var num3 = 0;
+        var num4 = NaN;
+        document.write(!!num2+ "<br>");      //true
+        document.write(!!num3+ "<br>");      //false
+        document.write(!!num4+ "<br>");      //false
+
+        str1 = "abc";
+        str2 = "";
+        document.write(!!str1+ "<br>");     //true
+        document.write(!!str2+ "<br>");     //false
+
+        var obj = null;
+        var obj2;
+        document.write(!!obj+ "<br>");     //false
+        document.write(!!obj2+ "<br>");     //false
+
+        var date = new Date();
+        document.write(!!date+"<br>");  //true
+
+        obj = "123";
+        if(obj != null && obj.length >0) {    //防止空指针异常
+            alert(123);
+        }
+        //JS中可以这样定义简化书写
+        if(obj) {  //防止空指针异常
+            alert(111)
+        }
+
+        var d = 3;
+        var e = 4;
+        var f = d > e ? 1 : 0;
+        alert(f);       //0
+    </script>
+</head>
+<body>
+
+</body>
+</html>

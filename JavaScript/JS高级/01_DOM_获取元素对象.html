@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM获取元素对象</title>
+</head>
+<body>
+    <img id="light" src="img/off.png">
+    <h1 id="title">大标题</h1>
+    <script>
+        //通过id获取元素对象
+        // var light = document.getElementById("light");
+        // alert("换图片");
+        // light.src = "../img/on.png";
+
+        //获取h1标签对象
+        var title = document.getElementById("title");
+        alert("换内容");
+        //修改内容
+        title.innerHTML = "超级大标题";
+    </script>
+</body>
+</html>

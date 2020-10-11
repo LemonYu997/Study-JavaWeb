@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>全局对象Global</title>
+    <script>
+        /*
+         * 1、特点：全局对象，这个Global中封装的方法不需要对象就可以直接调用。方法名();
+         * 2、方法：
+         *      encodeURI()：URL的编码
+         *      decodeURI()：URL的解码
+         *
+         *      encodeURIComponent()：URL的编码，编码的字符更多
+         *      decodeURIComponent()：URL的解码
+         *
+         *      parseInt()：将字符串转为数字
+         *      逐一判断每一个字符是否是数字，直到不是数字为止，将前边数字部分转为number
+         *      isNaN()：判断一个值是否是NaN
+         *          NaN全都不认，自身参与==的比较是false
+         *      eval()：将JS字符串，转为脚本代码执行
+         * 3、URL编码
+         * */
+        var str = "苍蓝星";
+        var encode = encodeURI(str);
+        document.write(encode + "<br>");    //%E8%8B%8D%E8%93%9D%E6%98%9F
+        var s = decodeURI(encode);
+        document.write(s + "<br>");     //苍蓝星
+
+        var str2 = "123abc";
+        var number = parseInt(str2);
+        // alert(number + 1);   //124
+
+        var a = NaN;
+        document.write(a == NaN);   //false
+        document.write("<br>");
+        document.write(isNaN(a));   //true
+
+        var jscode = "alert(123)";
+        eval(jscode);   //解析字符串并执行
+    </script>
+</head>
+<body>
+
+</body>
+</html>

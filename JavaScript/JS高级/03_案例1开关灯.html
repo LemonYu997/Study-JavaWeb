@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>案例1：开关灯</title>
+</head>
+<body>
+    <img id="light" src="img/off.png">
+
+    <script>
+        /*
+         * 分析：
+         * 1、获取图片对象
+         * 2、绑定单击事件
+         * 3、每次点击切换图片
+         * 规则：
+         *      如果灯是开的 on，切换图片为off
+         *      如果灯是开的 off，切换图片为on
+         * 使用标记flag完成
+         * */
+        //1、获取图片对象
+        var light = document.getElementById("light");
+        var flag = false;   //代表灯是灭的。off
+        //2、绑定单击事件
+        light.onclick = function() {
+            //判断，如果灯是开的，则灭掉
+            if (flag) {
+                light.src = "../img/off.png";
+                flag = false;
+            } else {    //灯灭则打开
+                light.src = "../img/on.png";
+                flag = true;
+            }
+        }
+    </script>
+</body>
+</html>

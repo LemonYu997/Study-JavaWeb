@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Function对象</title>
+    <script>
+        /*
+         * Function：函数(方法)对象
+         * 1、创建
+         *      1、var fun = new Function(形式参数列表，方法体);       //不常用
+         *      2、function 方法名称(形式参数列表) {方法体}
+         *      3、var 方法名 = function(形式参数列表){方法体}
+         * 2、属性
+         *      length：形参的个数
+         * 3、特点
+         *      1、方法定义时，形参的类型不用写，返回值类型也不用写
+         *      2、方法是一个对象，如果定义名称相同的方法，会覆盖
+         *      3、在JS中，方法的调用只与方法的名称有关，和参数列表无关
+         *      4、在方法声明中，有一个隐藏的内置对象(数组)，arguments，封装所有的实际参数
+         * 4、调用
+         *      方法名称(实际参数列表);
+         * */
+
+        //创建方式1
+        var fun1 = new Function("a", "b", "alert(a);");
+        // fun1(3,4);
+        // alert(fun1.length);
+
+        //创建方式2
+        function fun2(a, b) {
+            alert(a+b);
+        }
+        // fun2(3,4);
+        // alert(fun2.length);
+
+        //创建方式3
+        var fun3 = function(a,b){
+            alert(a+b);
+        }
+        // fun3(3,4);
+        // alert(fun3.length);
+
+        function fun4(a,b){
+            alert(a);
+            alert(b);
+        }
+        //方法调用
+        // fun4(1);        //名字和参数列表不匹配，第二个是undefined
+        // fun4(1,2,3);    //1,2
+
+        //求两个数的和
+        function add1(a,b) {
+            return a+b;
+        }
+        var sum1 = add1(1,2);
+        // alert(sum1);
+
+        //求任意个数的和
+        function add2(){
+            var sum = 0;
+            for (var i = 0; i < arguments.length; i++) {
+                sum += arguments[i];
+            }
+            return sum;
+        }
+        var sum2 = add2(1,2,3,4);
+        alert(sum2);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

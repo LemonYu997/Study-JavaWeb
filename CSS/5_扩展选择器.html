@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+    <meta charset="UTF-8">
+    <title>扩展选择器</title>
+    <style>
+        div p{
+            color: red;
+        }
+        div>p{
+            border: 1px solid;
+        }
+        input[type='text']{
+            border: 5px solid
+        }
+        a:link{
+            color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>被选中</p>
+    </div>
+    <p>没有被选中</p>
+    <div>没有被选中</div>
+
+    <input type="text">
+    <input type="password">
+    <br>
+
+    <a href="#">伪类选择器</a>
+</body>
+</html>
