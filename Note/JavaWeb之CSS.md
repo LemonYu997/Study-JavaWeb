@@ -358,7 +358,7 @@ background：设置背景，复合属性
 </html>
 ```
 
-![盒子模型](C:\Users\14455\Desktop\笔记\Image\Html\盒子模型.png)
+![盒子模型](Img\盒子模型.png)
 
 # 六、案例：美化注册页面
 
@@ -511,4 +511,4 @@ background：设置背景，复合属性
 </html>
 ```
 
-![注册案例](C:\Users\14455\Desktop\笔记\Image\Html\注册案例.png)
+![注册案例](Img\注册案例.png)

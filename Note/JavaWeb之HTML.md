@@ -38,7 +38,7 @@
 + CSS：用于美化页面，布局页面
 + JavaScript：控制页面的元素，让页面有一些动态的效果
 
-![资源分类](C:\Users\14455\Desktop\笔记\Image\Html\资源分类.png)
+![资源分类](Img\资源分类.png)
 
 # 二、HTML概念
 
@@ -224,7 +224,7 @@
 </html>
 ```
 
-![文本案例](C:\Users\14455\Desktop\笔记\Image\Html\文本案例.png)
+![文本案例](Img\文本案例.png)
 
 **HTML特殊字符表：**
 
@@ -412,7 +412,7 @@ a：定义一个超链接
 + tbody：表示表格的体部分，增强可读性
 + tfoot：表示表格的脚部分，增强可读性
 
-![表格标签](C:\Users\14455\Desktop\笔记\Image\Html\表格标签.png)
+![表格标签](Img\表格标签.png)
 
 ```html
 <!DOCTYPE html>
@@ -790,4 +790,4 @@ a：定义一个超链接
 
 效果如下：
 
-![表单](C:\Users\14455\Desktop\笔记\Image\Html\表单.png)
+![表单](Img\表单.png)

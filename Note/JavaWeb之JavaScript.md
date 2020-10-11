@@ -644,7 +644,7 @@ switch (a) {
 + History：历史记录对象
 + Location：地址栏对象
 
-![BOM](C:\Users\14455\Desktop\笔记\Image\Html\BOM.png)
+![BOM](Img\BOM.png)
 
 ## 3、Window：窗口对象
 
@@ -946,9 +946,9 @@ switch (a) {
 
 **DOM：**Document Object Model，文档对象模型。将标记语言文档的各个组成部分，封装为对象，可以使用这些对象，对标记语言文档进行CRUD的动态操作。
 
-![DOM](C:\Users\14455\Desktop\笔记\Image\Html\DOM.png)
+![DOM](Img\DOM.png)
 
-![DOM2](C:\Users\14455\Desktop\笔记\Image\Html\DOM2.png)
+![DOM2](Img\DOM2.png)
 
 **功能：**控制html文档的内容
 
