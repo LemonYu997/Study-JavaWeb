@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding="UTF-8" standalone="yes"?>
+
+<users>
+    <user id='1'>
+        <name>zhangsan </name>
+        <age>23</age>
+        <gender>male</gender>
+    </user>
+
+    <user id='2'>
+        <name>lisi</name>
+        <age>24</age>
+        <gender>male</gender>
+
+        <![CDATA[ if(a>b) a=b]]>
+    </user>
+</users>

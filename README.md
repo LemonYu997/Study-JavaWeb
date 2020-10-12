@@ -20,5 +20,10 @@ https://github.com/LemonYu997/Study-JavaWeb/tree/main/Note
 
 [Bootstrapt练习](https://github.com/LemonYu997/Study-JavaWeb/tree/main/Bootstrap)
 
+# 五、XML和Jsoup
 
+[xml和Jsoup练习](https://github.com/LemonYu997/Study-JavaWeb/tree/main/xml)
 
+# 六、Tomcat和Servlet
+
+[Tomcat练习](https://github.com/LemonYu997/Study-JavaWeb/tree/main/Tomcat)
