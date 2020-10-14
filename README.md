@@ -26,9 +26,11 @@ https://github.com/LemonYu997/Study-JavaWeb/tree/main/Note
 
 # 六、Tomcat和Servlet
 
-[servlet练习](https://github.com/LemonYu997/Study-JavaWeb/tree/main/Tomcat)
+[servlet练习](https://github.com/LemonYu997/Study-JavaWeb/tree/main/Servlet)
 
 # 七、Request和Response
+
+[常用方法](https://github.com/LemonYu997/Study-JavaWeb/tree/main/Servlet)
 
 [登录案例](https://github.com/LemonYu997/Study-JavaWeb/tree/main/login_test)
 
