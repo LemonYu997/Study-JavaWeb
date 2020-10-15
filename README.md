@@ -34,3 +34,4 @@ https://github.com/LemonYu997/Study-JavaWeb/tree/main/Note
 
 [登录案例](https://github.com/LemonYu997/Study-JavaWeb/tree/main/login_test)
 
+[文件下载案例](https://github.com/LemonYu997/Study-JavaWeb/tree/main/Servlet/src/web/download)
