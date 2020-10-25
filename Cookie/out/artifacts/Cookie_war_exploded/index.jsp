@@ -7,10 +7,17 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+<head>
+  <title>$Title$</title>
+</head>
+<body>
+  <%
+    //内置对象，不需要创建和获取
+    response.getWriter().write("response");
+
+    String contextPath = request.getContextPath();
+    out.print(contextPath);
+  %>
+  <% response.getWriter().write("response"); %>
+</body>
 </html>
