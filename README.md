@@ -35,3 +35,14 @@ https://github.com/LemonYu997/Study-JavaWeb/tree/main/Note
 [登录案例](https://github.com/LemonYu997/Study-JavaWeb/tree/main/login_test)
 
 [文件下载案例](https://github.com/LemonYu997/Study-JavaWeb/tree/main/Servlet/src/web/download)
+
+# 八、Cookie和Session
+
+[cookie和session练习](https://github.com/LemonYu997/Study-JavaWeb/tree/main/Cookie)
+
+# 九、JSP
+
+[jsp练习](https://github.com/LemonYu997/Study-JavaWeb/tree/main/Servlet/src/web/jsp)
+
+[jsp案例之列表查询](https://github.com/LemonYu997/Study-JavaWeb/tree/main/Servlet/src/web/jsp_case)
+
