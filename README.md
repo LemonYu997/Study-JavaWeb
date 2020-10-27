@@ -42,7 +42,7 @@ https://github.com/LemonYu997/Study-JavaWeb/tree/main/Note
 
 # 九、JSP
 
-[jsp练习](https://github.com/LemonYu997/Study-JavaWeb/tree/main/Servlet/src/web/jsp)
+[jsp练习](https://github.com/LemonYu997/Study-JavaWeb/tree/main/jsp)
 
-[jsp案例之列表查询](https://github.com/LemonYu997/Study-JavaWeb/tree/main/Servlet/src/web/jsp_case)
+[jsp案例之列表查询](https://github.com/LemonYu997/Study-JavaWeb/tree/main/jsp_case)
 
