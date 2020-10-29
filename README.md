@@ -44,5 +44,12 @@ https://github.com/LemonYu997/Study-JavaWeb/tree/main/Note
 
 [jsp练习](https://github.com/LemonYu997/Study-JavaWeb/tree/main/jsp)
 
-[jsp案例之列表查询](https://github.com/LemonYu997/Study-JavaWeb/tree/main/jsp_case)
+[jsp案例](https://github.com/LemonYu997/Study-JavaWeb/tree/main/jsp_case)
 
+用户列表的登录、查询、添加、删除等功能。
+
+用到的技术：Servlet+JSP+MySQL+JDBCTempleat+Druid+BeanUtils+tomcat
+
+# 十、Filter和Listener
+
+[Filter练习](https://github.com/LemonYu997/Study-JavaWeb/tree/main/Filter)
