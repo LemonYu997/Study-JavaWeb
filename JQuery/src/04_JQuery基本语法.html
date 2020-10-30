@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>基本语法</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script>
+        //1、给b1按钮绑定单击事件
+        //获取b1按钮
+        $("#b1").click(function () {    //匿名内部类
+            alert("你点了按钮");
+        });
+
+        //2、JQuery入口函数（dom文档加载完成之后执行该函数中的代码）
+        // window.onload = function() {};   //以前的方法
+        $(function () {                     //JQ方法
+            $("#b1").click(function () {
+                alert("你点了按钮");
+            });
+        });
+
+        /**
+         * window.onload和 $(function ()的区别
+         * window.onload只能定义一次，如果定义多次，后边会将前边的覆盖掉
+         * $(function ()可以定义多次
+         * */
+
+        //3、样式控制
+        $(function () {
+            $("#div1").css("background-color", "red");  //方法一
+            $("#div2").css("backgroundColor", "pink");  //方法二
+        });
+    </script>
+</head>
+<body>
+    <div id="div1">div1...</div>
+    <div id="div2">div2...</div>
+    <input type="button" value="点一点" id="b1">
+</body>
+</html>
