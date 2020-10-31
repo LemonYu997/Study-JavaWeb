@@ -48,14 +48,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.last.introduce.type" value="VAR" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/js" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/05_JQuery基本选择器.html" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Java\Project\JQuery\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Java\Project\JQuery\src\js" />
+      <recent name="F:\Java\Project\JQuery\src" />
     </key>
   </component>
   <component name="RunManager">
@@ -83,6 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604042563788</updated>
       <workItem from="1604042566714" duration="15814000" />
+      <workItem from="1604110907640" duration="11391000" />
     </task>
     <servers />
   </component>
@@ -98,5 +102,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="814" y="421" key="FileChooserDialogImpl/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1604047602581" />
+    <state x="730" y="502" key="com.intellij.ide.util.TipDialog" timestamp="1604110919163">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="730" y="502" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1604110919163" />
   </component>
 </project>
