@@ -57,3 +57,8 @@ https://github.com/LemonYu997/Study-JavaWeb/tree/main/Note
 # 十一、JQuery
 
 [JQuery练习](https://github.com/LemonYu997/Study-JavaWeb/tree/main/JQuery)
+
+# 十二、Redis
+
+[Redis和Jedis练习](https://github.com/LemonYu997/Study-JavaWeb/tree/main/redis)
+
