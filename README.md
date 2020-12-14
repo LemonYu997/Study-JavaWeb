@@ -62,3 +62,6 @@ https://github.com/LemonYu997/Study-JavaWeb/tree/main/Note
 
 [Redis和Jedis练习](https://github.com/LemonYu997/Study-JavaWeb/tree/main/redis)
 
+# 十三、maven
+
+[maven练习](https://github.com/LemonYu997/Study-JavaWeb/tree/main/maven)
