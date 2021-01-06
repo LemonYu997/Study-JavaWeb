@@ -65,3 +65,8 @@ https://github.com/LemonYu997/Study-JavaWeb/tree/main/Note
 # 十三、maven
 
 [maven练习](https://github.com/LemonYu997/Study-JavaWeb/tree/main/maven)
+
+# 十四、旅游网综合案例
+
+[旅游网综合案例](https://github.com/LemonYu997/Study-JavaWeb/tree/main/travel)
+
