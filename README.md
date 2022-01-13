@@ -4,6 +4,8 @@
 
 https://github.com/LemonYu997/Study-JavaWeb/tree/main/Note
 
+新的JavaWeb复习项目：https://github.com/LemonYu997/Study-JavaWeb-Review
+
 # 一、HTML
 
 [HTML练习](https://github.com/LemonYu997/Study-JavaWeb/tree/main/HTML)
