@@ -1,6 +1,6 @@
 # Study-JavaWeb
 
-**提示：**Note文件夹中为笔记，md文件中图片链接均为本地连接，可以将其clone至本地查看，图片以及格式显示更完全。
+**提示**：Note文件夹中为笔记，md文件中图片链接均为本地连接，可以将其clone至本地查看，图片以及格式显示更完全。
 
 https://github.com/LemonYu997/Study-JavaWeb/tree/main/Note
 
